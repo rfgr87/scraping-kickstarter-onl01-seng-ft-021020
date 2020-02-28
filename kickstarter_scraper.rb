@@ -11,7 +11,7 @@ def create_project_hash
   #projects.css("h2.bbcard_name strong a").text = All texts from this section on
   #projects.css("h2.bbcard_name strong a").first.text = Moby Dick: An Oratorio
   #projects.css("div.project-thumbnail a img").attribute("src").value  = the web page source Image
-  
+  # projects.css("p.bbcard_blurb").text all descriptions of all the projects in this current space of projects
   
   binding.pry
   
